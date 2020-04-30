@@ -1,3 +1,15 @@
+The Sample input file wiki_40 contains a large number of sub-documents which are returned after a Query.
+
+Scoring Scheme - lnc.ltc 
+l => Logarithm
+n => normal
+c => cosine
+
+Improved the model using restriction criteria for returning relevant documents - 
+a. Only High IDF 
+b. Docs which contain many Query Terms
+c. Both a and b
+
 1. Run index_creation.py
 
 2. This will populate the file dictionary.p (storing the posting lists of all the words in wiki_40)
